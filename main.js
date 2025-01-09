@@ -20,7 +20,7 @@ navLinks.addEventListener("click", (e) => {
 const scrollRevealOption = {
   distance: "50px",
   origin: "bottom",
-  duration: 1000,
+  duration: 100,
 };
 
 ScrollReveal().reveal(".header__image img", {
@@ -33,11 +33,11 @@ ScrollReveal().reveal(".header__content h1", {
 });
 ScrollReveal().reveal(".header__content h2", {
   ...scrollRevealOption,
-  delay: 1000,
+  delay: 100,
 });
 ScrollReveal().reveal(".header__btn", {
   ...scrollRevealOption,
-  delay: 1500,
+  delay: 150,
 });
 
 ScrollReveal().reveal(".about__image img", {
@@ -50,16 +50,16 @@ ScrollReveal().reveal(".about__content .section__header", {
 });
 ScrollReveal().reveal(".about__content p", {
   ...scrollRevealOption,
-  delay: 1000,
+  delay: 100,
   interval: 500,
 });
 ScrollReveal().reveal(".about__btn", {
   ...scrollRevealOption,
-  delay: 2000,
+  delay: 200,
 });
 
 ScrollReveal().reveal(".blog__card", {
-  duration: 1000,
+  duration: 100,
   interval: 500,
 });
 
