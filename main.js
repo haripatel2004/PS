@@ -36,7 +36,6 @@ ScrollReveal().reveal(".header__content h2", {
 });
 ScrollReveal().reveal(".header__btn", {
   ...scrollRevealOption,
-  delay: 150,
 });
 
 ScrollReveal().reveal(".about__image img", {
@@ -45,12 +44,12 @@ ScrollReveal().reveal(".about__image img", {
 });
 ScrollReveal().reveal(".about__content .section__header", {
   ...scrollRevealOption,
-  delay: 500,
+  delay:10,
 });
 ScrollReveal().reveal(".about__content p", {
   ...scrollRevealOption,
   delay: 100,
-  interval: 500,
+  interval: 50,
 });
 ScrollReveal().reveal(".about__btn", {
   ...scrollRevealOption,
@@ -64,7 +63,7 @@ ScrollReveal().reveal(".blog__card", {
 
 ScrollReveal().reveal(".blog__btn", {
   ...scrollRevealOption,
-  delay: 2000,
+  delay: 200,
 });
 
 ScrollReveal().reveal(".contact__image img", {
