@@ -20,7 +20,7 @@ navLinks.addEventListener("click", (e) => {
 const scrollRevealOption = {
   distance: "50px",
   origin: "bottom",
-  duration: 100,
+  duration: 10,
 };
 
 ScrollReveal().reveal(".header__image img", {
@@ -29,11 +29,11 @@ ScrollReveal().reveal(".header__image img", {
 });
 ScrollReveal().reveal(".header__content h1", {
   ...scrollRevealOption,
-  delay: 500,
+  delay: 50,
 });
 ScrollReveal().reveal(".header__content h2", {
   ...scrollRevealOption,
-  delay: 100,
+  delay: 10,
 });
 ScrollReveal().reveal(".header__btn", {
   ...scrollRevealOption,
