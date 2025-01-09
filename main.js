@@ -25,7 +25,6 @@ const scrollRevealOption = {
 
 ScrollReveal().reveal(".header__image img", {
   ...scrollRevealOption,
-  origin: "right",
 });
 ScrollReveal().reveal(".header__content h1", {
   ...scrollRevealOption,
